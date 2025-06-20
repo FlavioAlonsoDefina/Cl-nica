@@ -25,6 +25,7 @@ public class Paciente {
         this.fechaRegistro = LocalDateTime.now();
     }
 
+    //getters 
     public String getNombre() { 
         return nombre; 
     }
