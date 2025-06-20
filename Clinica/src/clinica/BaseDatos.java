@@ -15,6 +15,7 @@ public class BaseDatos {
     public static List<Paciente> pacientes = new ArrayList<>();
     public static List<Consulta> consultas = new ArrayList<>();
 
+    //Metodo para buscar por Dni
     public static Paciente buscarPorDNI(String dni) {
         for (Paciente p : pacientes) {
             if (p.getDni().equals(dni)) return p;
