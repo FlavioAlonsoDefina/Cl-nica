@@ -17,6 +17,7 @@ public class Paciente {
     private String alergias;
     private LocalDateTime fechaRegistro;
 
+    //Constructor de paciente
     public Paciente(String nombre, String dni, String alergias) {
         this.nombre = nombre;
         this.dni = dni;
