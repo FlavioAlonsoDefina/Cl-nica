@@ -18,6 +18,7 @@ public class Consulta {
     private LocalDateTime fechaHora;
     private Integer calificacion = null;
 
+    //construcor consultas
     public Consulta(Paciente paciente, String diagnostico, String doctor) {
         this.paciente = paciente;
         this.diagnostico = diagnostico;
