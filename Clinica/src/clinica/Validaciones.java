@@ -9,6 +9,7 @@ package clinica;
  * @author DELL7050
  */
 public class Validaciones {
+    //Validacion de Dni (8digitos)
     public static boolean validarDNI(String dni) {
         return dni != null && dni.matches("\\d{8}");
     }
