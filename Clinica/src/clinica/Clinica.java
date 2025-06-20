@@ -13,6 +13,7 @@ public class Clinica {
     /**
      * @param args the command line arguments
      */
+    //Menu principal
     public static void main(String[] args) {
         new MenuPrincipalUI();
     }
