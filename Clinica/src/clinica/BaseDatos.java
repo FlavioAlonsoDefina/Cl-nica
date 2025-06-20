@@ -11,6 +11,7 @@ import java.util.ArrayList;
  * @author DELL7050
  */
 public class BaseDatos {
+    //Base temporal de datos
     public static List<Paciente> pacientes = new ArrayList<>();
     public static List<Consulta> consultas = new ArrayList<>();
 
