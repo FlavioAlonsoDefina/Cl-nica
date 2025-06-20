@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
  *
  * @author DELL7050
  */
+//Clase consulta con atributos
 public class Consulta {
     private Paciente paciente;
     private String diagnostico;
