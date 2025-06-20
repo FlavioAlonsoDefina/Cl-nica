@@ -13,7 +13,7 @@ public class Validaciones {
     public static boolean validarDNI(String dni) {
         return dni != null && dni.matches("\\d{8}");
     }
-
+    // Validacion de diagnostico
     public static boolean validarDiagnostico(String diag) {
         return diag != null && !diag.trim().isEmpty();
     }
