@@ -52,6 +52,7 @@ public class Consulta {
         return paciente;
     }
 
+    //Mostrar datos de consulta
     public String resumen() {
         String base = "Consulta de " + paciente.getNombre() + " con el Dr. " + doctor +
                 "\nDiagnóstico: " + diagnostico +
