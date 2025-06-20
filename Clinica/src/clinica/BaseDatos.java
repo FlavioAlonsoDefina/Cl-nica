@@ -23,6 +23,7 @@ public class BaseDatos {
         return null;
     }
 
+    //Lista de pacientes
     public static List<Paciente> buscarPorNombre(String nombre) {
         List<Paciente> resultado = new ArrayList<>();
         for (Paciente p : pacientes) {
